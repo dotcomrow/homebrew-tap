@@ -5,8 +5,8 @@
 class VaultOpsKeys < Formula
   desc "Script to quickly view a pre-configured list of keys from an enterprise vault in"
   homepage "https://github.com/dotcomrow/vault-ops-keys"
-  url "https://github.com/dotcomrow/vault-ops-keys/archive/v1.121.tar.gz"
-  sha256 "b490ba7f7499d36e4ef8de2f0cc6a503229a2014e4f2c3280a17d28553365288"
+  url "https://github.com/dotcomrow/vault-ops-keys/archive/v1.122.tar.gz"
+  sha256 "a911426cc80da14d79a4025a1fd9b53dc3e4fad962e24ea01808b8b4e370fefa"
 
   depends_on "curl"
   depends_on "jq"
@@ -14,7 +14,7 @@ class VaultOpsKeys < Formula
 
   def install
     bin.install "show-keys.sh" => "show-keys"
-    prefix.install 'files'
+    prefix.install "files"
   end
 
   test do
