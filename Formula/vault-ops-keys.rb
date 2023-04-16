@@ -5,8 +5,8 @@
 class VaultOpsKeys < Formula
   desc "Script to quickly view a pre-configured list of keys from an enterprise vault in"
   homepage "https://github.com/dotcomrow/vault-ops-keys"
-  url "https://github.com/dotcomrow/vault-ops-keys/archive/v1.124.tar.gz"
-  sha256 "9aa208d3188e6edc44e22fe00d3cb93320a5eac36d97cced07ff92f8cbf43bc2"
+  url "https://github.com/dotcomrow/vault-ops-keys/archive/v1.125.tar.gz"
+  sha256 "c9b82d0155866ebdb63590ed82d8e90dc5c8c4b72b3e295becba666e70fad2af"
 
   depends_on "curl"
   depends_on "jq"
